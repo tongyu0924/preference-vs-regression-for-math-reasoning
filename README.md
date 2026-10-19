@@ -34,7 +34,7 @@ Reported setup: 240 training problems, 250 test problems, 8 sampled solutions pe
 |---|---:|---:|
 | Held-out pairwise accuracy ↑ | **0.214 (21.4%)** | 0.089 (8.9%) |
 
-The Process Preference Model (PPM) has a **12.5 percentage-point** advantage on this metric. Both accuracies are below 50%, so the relative advantage should not be interpreted as reliable ranking performance. The experiment examines whether preference-based training improves step ranking compared with direct Q-value regression.
+This experiment compares preference-based training in the Process Preference Model (PPM) with direct Q-value regression in the Q-value-based Process Reward Model (PQM). Held-out pairwise accuracy measures how often each model assigns a higher score to the preferred step than to the rejected step.
 
 ## Usage
 
